@@ -1,0 +1,61 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+Icon\r
+$RECYCLE.BIN/
+
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Ignore personal layout, state, and breakpoints (keeps project team-friendly)
+xcuserdata/
+*.xcuserstate
+*.xcbkptlist
+
+.build/
+Packages/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# UNCOMMENT the line below if you want to completely block caching SPM package details.
+# Generally, keeping Package.resolved is recommended so the team uses exact same versions.
+# Package.resolved
+
+# CocoaPods - Un-comment if you use Pods and prefer not to commit the source code
+# Pods/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output
+
+*.xcconfig
+!README.md
+
+# Ignore all personal and shared Xcode layout/data wrapper files
+xcuserdata/
+*.position
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcbkptlist
+
+# Ignore workspace layout data but keep the workspace structural configuration
+project.xcworkspace/
+*.xcworkspace/contents.xcworkspacedata
